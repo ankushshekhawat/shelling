@@ -8,7 +8,8 @@ Apart from differences in application's response, we might dalso detect argument
 ## Reference injection
 In the first approach we have no idea what is the target command we are injecting arguments into. The main assumption is that there are only letters, uppercase letters and digits (the last not likely to take any argument values, though) that can represent short flags in formats:
 
-    COMMAND -FLAG
+    COMMAND -FLAG ( '=''or')
+(%' or '0'='0)
     COMMAND /FLAG
 
 At this point we do not attempt to bruteforce any full names (long versions of the flags), like:
