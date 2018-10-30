@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 
 ## SHELLING - payload generator by ewilded, tuned for OS command injection
-
+( '=''or')
+(%' or '0'='0)
 use strict;
 no strict 'refs';
 
