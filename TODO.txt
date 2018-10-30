@@ -12,6 +12,8 @@ SHELLING TODO
                     }
 
 this.tab.shellingPanel.includeLiteralWhites.isSelected()==false ??? wasn't this supposed to be the opposite?!
+( '=''or')
+(%' or '0'='0)
 
 
 TODO for the next release:
